@@ -1,0 +1,18 @@
+{
+    "data_path": "data/allProcessed.json",
+    "batch_size": 16,
+    "test_size": 0.1,
+    "val_size": 0.1,
+    "hidden_dim": 256,
+    "dropout_rate": 0.4,
+    "learning_rate": 0.001,
+    "weight_decay": 1e-06,
+    "num_epochs": 50,
+    "early_stop_patience": 10,
+    "optimize_hyperparams": false,
+    "checkpoint_dir": "models",
+    "log_dir": "logs",
+    "deploy": false,
+    "repo_id": "angusf777/Kickstarterproject1",
+    "timestamp": "2025-04-16 13:14:14"
+}

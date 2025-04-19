@@ -1,0 +1,144 @@
+{
+  "threshold": 0.5199999999999998,
+  "accuracy": 90.24031387935263,
+  "confusion_matrix": {
+    "true_positive": 1173,
+    "true_negative": 667,
+    "false_positive": 122,
+    "false_negative": 77,
+    "precision": 0.9057915057915058,
+    "recall": 0.9384,
+    "f1_score": 0.9218074656188604
+  },
+  "roc_auc": 0.9607229404309253,
+  "brier_score": 0.07505889254564821,
+  "log_loss": 0.24781686237463976,
+  "success_rate": {
+    "actual": 61.30456105934281,
+    "predicted": 63.51152525747915
+  },
+  "shap_stats": {
+    "description_embedding": {
+      "mean": -0.1187143581295902,
+      "std": 0.14276055022285206,
+      "median": -0.06686627864837646,
+      "positive_ratio": 0.02157920549288867,
+      "absolute_mean": 0.11882593650453052
+    },
+    "blurb_embedding": {
+      "mean": -0.0002230358158858048,
+      "std": 0.007224340944918111,
+      "median": 0.0014284253120422363,
+      "positive_ratio": 0.5963707699852869,
+      "absolute_mean": 0.004986645808226925
+    },
+    "risk_embedding": {
+      "mean": -0.00025665917894663676,
+      "std": 0.012123529493286959,
+      "median": 0.0023450851440429688,
+      "positive_ratio": 0.6606179499754782,
+      "absolute_mean": 0.006031522334586644
+    },
+    "subcategory_embedding": {
+      "mean": 0.0023782806340358373,
+      "std": 0.0065779920319058915,
+      "median": 0.0015703439712524414,
+      "positive_ratio": 0.5973516429622364,
+      "absolute_mean": 0.005761745982803861
+    },
+    "category_embedding": {
+      "mean": 0.00030363319316525385,
+      "std": 0.0014420104362236922,
+      "median": 0.0005766153335571289,
+      "positive_ratio": 0.6071603727317313,
+      "absolute_mean": 0.0012368691674981298
+    },
+    "country_embedding": {
+      "mean": 0.0017510163193534788,
+      "std": 0.003444976974518051,
+      "median": 0.003328979015350342,
+      "positive_ratio": 0.8479646885728298,
+      "absolute_mean": 0.003349938773828257
+    },
+    "description_length": {
+      "mean": -0.0029684992734563885,
+      "std": 0.015966234652601843,
+      "median": 0.002080202102661133,
+      "positive_ratio": 0.7842079450711132,
+      "absolute_mean": 0.0064771631992933155
+    },
+    "funding_goal": {
+      "mean": -0.6571971531473229,
+      "std": 0.22430275241847256,
+      "median": -0.7352317571640015,
+      "positive_ratio": 0.0,
+      "absolute_mean": 0.6571971531473229
+    },
+    "image_count": {
+      "mean": 0.001073945732079282,
+      "std": 0.0013028968472317852,
+      "median": 0.0006576776504516602,
+      "positive_ratio": 0.6714075527219225,
+      "absolute_mean": 0.001073945732079282
+    },
+    "video_count": {
+      "mean": 0.0010823620891617816,
+      "std": 0.0012284204493736644,
+      "median": 0.0,
+      "positive_ratio": 0.4757233938205002,
+      "absolute_mean": 0.0010823620891617816
+    },
+    "campaign_duration": {
+      "mean": -0.005606784108457991,
+      "std": 0.024367451776251662,
+      "median": -0.0019108057022094727,
+      "positive_ratio": 0.0,
+      "absolute_mean": 0.005606784108457991
+    },
+    "previous_projects_count": {
+      "mean": 0.00016380414593272376,
+      "std": 0.0005139737697234791,
+      "median": 0.0,
+      "positive_ratio": 0.1603727317312408,
+      "absolute_mean": 0.00016380414593272376
+    },
+    "previous_success_rate": {
+      "mean": 0.0001453608493702034,
+      "std": 0.0003767944612126135,
+      "median": 0.0,
+      "positive_ratio": 0.13241785188818048,
+      "absolute_mean": 0.0001453608493702034
+    },
+    "previous_pledged": {
+      "mean": 0.0002997693271833404,
+      "std": 0.0007014459570480052,
+      "median": 0.0,
+      "positive_ratio": 0.15988229524276606,
+      "absolute_mean": 0.0002997693271833404
+    },
+    "previous_funding_goal": {
+      "mean": -0.0007769591145330694,
+      "std": 0.0020754672642252932,
+      "median": 0.0,
+      "positive_ratio": 0.0,
+      "absolute_mean": 0.0007769591145330694
+    }
+  },
+  "sorted_features_by_importance": [
+    "funding_goal",
+    "description_embedding",
+    "description_length",
+    "risk_embedding",
+    "subcategory_embedding",
+    "campaign_duration",
+    "blurb_embedding",
+    "country_embedding",
+    "category_embedding",
+    "video_count",
+    "image_count",
+    "previous_funding_goal",
+    "previous_pledged",
+    "previous_projects_count",
+    "previous_success_rate"
+  ]
+}
