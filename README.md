@@ -1,5 +1,9 @@
 # Kickstarter Project Success Prediction Model
 
+![Kickstarter Analytics](https://img.shields.io/badge/Kickstarter-Analytics-brightgreen)
+![Data Science](https://img.shields.io/badge/Data-Science-blue)
+![NLP](https://img.shields.io/badge/NLP-Embeddings-orange)
+
 ## Overview
 
 This repository implements a multimodal neural network model for predicting the success probability of Kickstarter crowdfunding projects. The model processes various types of input features including project description embeddings, category embeddings, numerical metrics, and historical creator data to provide accurate success predictions with explainable results using DeepSHAP.
